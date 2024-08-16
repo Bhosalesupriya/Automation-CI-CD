@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="12" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T19:44:12 IST" name="name" finished-at="2024-05-27T19:44:12 IST" duration-ms="68">
+    <groups>
+      <group name="smoke">
+        <method signature="frist.firstname(java.lang.String)[pri:0, instance:Testt.frist@fa49800]" name="firstname" class="Testt.frist"/>
+        <method signature="thrid.test2()[pri:0, instance:Testt.thrid@25084a1e]" name="test2" class="Testt.thrid"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-05-27T19:44:12 IST" name="lastname" finished-at="2024-05-27T19:44:12 IST" duration-ms="68">
+      <class name="Testt.thrid">
+        <test-method signature="test1()[pri:0, instance:Testt.thrid@25084a1e]" started-at="2024-05-27T19:44:12 IST" name="test1" finished-at="2024-05-27T19:44:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Testt.thrid@25084a1e]" started-at="2024-05-27T19:44:12 IST" name="test2" finished-at="2024-05-27T19:44:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- Testt.thrid -->
+      <class name="Testt.TestData">
+        <test-method signature="Amozonlogin(java.lang.String,java.lang.String)[pri:0, instance:Testt.TestData@156b88f5]" started-at="2024-05-27T19:44:12 IST" name="Amozonlogin" data-provider="getdata" finished-at="2024-05-27T19:44:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amozonlogin -->
+        <test-method signature="Amozonlogin(java.lang.String,java.lang.String)[pri:0, instance:Testt.TestData@156b88f5]" started-at="2024-05-27T19:44:12 IST" name="Amozonlogin" data-provider="getdata" finished-at="2024-05-27T19:44:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amozonlogin -->
+        <test-method signature="Amozonlogin(java.lang.String,java.lang.String)[pri:0, instance:Testt.TestData@156b88f5]" started-at="2024-05-27T19:44:12 IST" name="Amozonlogin" data-provider="getdata" finished-at="2024-05-27T19:44:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amozonlogin -->
+      </class> <!-- Testt.TestData -->
+      <class name="Testt.frist">
+        <test-method is-config="true" signature="beforclass()[pri:0, instance:Testt.frist@fa49800]" started-at="2024-05-27T19:44:12 IST" name="beforclass" finished-at="2024-05-27T19:44:12 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforclass -->
+        <test-method signature="firstname(java.lang.String)[pri:0, instance:Testt.frist@fa49800]" started-at="2024-05-27T19:44:12 IST" name="firstname" finished-at="2024-05-27T19:44:12 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstname -->
+        <test-method signature="lastname()[pri:0, instance:Testt.frist@fa49800]" started-at="2024-05-27T19:44:12 IST" name="lastname" finished-at="2024-05-27T19:44:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastname -->
+      </class> <!-- Testt.frist -->
+    </test> <!-- lastname -->
+    <test started-at="2024-05-27T19:44:12 IST" name="Car Loan" finished-at="2024-05-27T19:44:12 IST" duration-ms="68">
+      <class name="Testt.sec">
+        <test-method is-config="true" signature="beforclasss()[pri:0, instance:Testt.sec@57cf54e1]" started-at="2024-05-27T19:44:12 IST" name="beforclasss" finished-at="2024-05-27T19:44:12 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforclasss -->
+        <test-method signature="CarLoan(java.lang.String,java.lang.String)[pri:0, instance:Testt.sec@57cf54e1]" started-at="2024-05-27T19:44:12 IST" name="CarLoan" finished-at="2024-05-27T19:44:12 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CarLoan -->
+        <test-method signature="StuffLoan()[pri:0, instance:Testt.sec@57cf54e1]" started-at="2024-05-27T19:44:12 IST" name="StuffLoan" finished-at="2024-05-27T19:44:12 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StuffLoan -->
+        <test-method signature="homeLoan()[pri:0, instance:Testt.sec@57cf54e1]" started-at="2024-05-27T19:44:12 IST" name="homeLoan" finished-at="2024-05-27T19:44:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeLoan -->
+        <test-method signature="laptopLoan()[pri:0, instance:Testt.sec@57cf54e1]" started-at="2024-05-27T19:44:12 IST" name="laptopLoan" finished-at="2024-05-27T19:44:12 IST" depends-on-methods="Testt.sec.StuffLoan" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptopLoan -->
+      </class> <!-- Testt.sec -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- name -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [name]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="qaclickacademy.com"/>
+  <listeners>
+    <listener class-name="Testt.Listeners"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="lastname(failed)">
+    <classes>
+      <class name="Testt.thrid">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- Testt.thrid -->
+    </classes>
+  </test> <!-- lastname(failed) -->
+</suite> <!-- Failed suite [name] -->
